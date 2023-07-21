@@ -10,6 +10,14 @@
     padding: 0;
 }
 
+/* Shared Style */
+.button-text {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
 /* Navigation Style */
 
 .g {
@@ -48,7 +56,7 @@
     justify-content: space-evenly;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    align-items: center; 
+    align-items: center;
 }
 
 .right-information-text {
@@ -63,3 +71,113 @@
     height: 24px;
 
 }
+
+/* Play section */
+
+.play-container {
+    /* width: auto;
+    height: 630px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.play-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 150px;
+    /* background-image: url(/images/Group\ 14.png); */
+}
+
+.sign-in {
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: #FF42A5;
+    border: none;
+}
+
+.go-rough {
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: none;
+}
+
+.play-like {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.goat {
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-text {
+    color: #534C64;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: lowercase;
+    line-height: 30px;
+}
+
+.img {
+    width: 550px;
+}
+.btn-container{
+    margin-top:20px;
+}
+
+/* We are Gamer section */
+
+.gamer-info{
+    margin-right: 70px;
+}
+.gamer-section {
+    display: flex;
+    align-items: center;
+    text-align: end;
+}
+
+.gamer-title {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gamer-description {
+    color: #534C64;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.unleash{
+    color: #534C64;
+font-size: 20px;
+font-weight: 600;
+line-height: 25px;
+margin-top:10px;
+}
+
+
+
+
+@media screen and (max-width:576px) {}
